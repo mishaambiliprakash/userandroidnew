@@ -1,0 +1,76 @@
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="30dp"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <EditText
+            android:hint="Name"
+            android:id="@+id/nam"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:hint="Place"
+            android:id="@+id/pla"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:hint="Phone No"
+            android:inputType="number"
+            android:id="@+id/ph"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:hint="Email Id"
+            android:id="@+id/email"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:textColor="#0D27BC"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:id="@+id/pas"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:textColor="#0D27BC"
+            android:inputType="textPassword"
+            android:hint="Confirm Password"
+            android:id="@+id/con"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:onClick="regclick"
+            android:layout_margin="10dp"
+            android:background="@drawable/button"
+            android:text="REGISTER"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:onClick="logclick"
+            android:background="@drawable/button"
+            android:text="BACK TO LOGIN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

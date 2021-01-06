@@ -1,0 +1,50 @@
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="30dp"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <EditText
+            android:drawableLeft="@drawable/email"
+            android:drawablePadding="10dp"
+            android:layout_margin="10dp"
+            android:id="@+id/email"
+            android:hint="Email Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:drawableLeft="@drawable/password"
+            android:drawablePadding="10dp"
+            android:layout_margin="10dp"
+            android:id="@+id/pass"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:onClick="mybtnclick"
+            android:layout_margin="10dp"
+            android:background="@drawable/button"
+            android:textSize="20dp"
+            android:textColor="#0D27BC"
+            android:text="LOGIN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:onClick="mybtn2click"
+            android:layout_margin="10dp"
+            android:background="@drawable/button"
+            android:textSize="20dp"
+            android:textColor="#0D27BC"
+            android:text="REGISTER"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
